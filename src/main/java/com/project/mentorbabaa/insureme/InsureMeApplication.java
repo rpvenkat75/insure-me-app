@@ -19,10 +19,10 @@ public class InsureMeApplication {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		SpringApplication.run(InsureMeApplication.class, args);//C:\venkat\chromedriver-win64\chromedriver-win64
-		// System.setProperty("webdriver.chrome.driver", "/C://venkat//chromedriver-win64//chromedriver-win64//chromedriver.exe"); 
+		 System.setProperty("webdriver.chrome.driver", "/C://venkat//chromedriver-win64//chromedriver-win64//chromedriver.exe"); 
 		  System.out.println( "Hello World!" );
 		  
-		  WebDriverManager.chromedriver().setup(); //
+		 // WebDriverManager.chromedriver().setup(); //
 		  ChromeOptions	 chromeOptions=new ChromeOptions(); 
 		  chromeOptions.addArguments("--headless");
 		  chromeOptions.addArguments("--remote-allow-origins=*");
